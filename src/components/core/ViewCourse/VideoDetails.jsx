@@ -11,7 +11,7 @@ import { markLectureAsComplete } from "../../../services/operations/courseDetail
 import { updateCompletedLectures } from "../../../slices/viewCourseSlice"
 import IconBtn from "../../Common/IconBtn"
 
-const ls = () => {
+const VideoDetails = () => {
   const { courseId, sectionId, subSectionId } = useParams()
   const navigate = useNavigate()
   const location = useLocation()
@@ -246,5 +246,5 @@ const ls = () => {
   )
 }
 
-export default ls
+export default VideoDetails;
 // video
